@@ -1,0 +1,125 @@
+{
+  "food": {
+    "japanese": [
+      {
+        "name": "Yaki Onigiri",
+        "url": "https://www.foodandwine.com/thmb/ubTTCygEx-yixPnM3Ho1xa3Hh_M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Yaki-Onigiri-FT-RECIPE0124-d61b1bff2bb543be83035bc9d647a67e.jpg",
+        "description": "This popular Japanese snack of grilled, soy sauce–basted rice balls requires just a few ingredients. All you need is short-grain white rice, water, furikake, soy sauce, and cooking spray, then you are ready to shape the onigiri. Our version uses the broiler to create a deliciously crunchy, toasted crust that makes these rice balls easy to enjoy."
+      },
+      {
+        "name": "Soba Bukkake with Chashu Pork and Sesame Vinaigrette",
+        "url": "https://www.foodandwine.com/thmb/4G3OIDxKLcmEgYVezGA76MNurew=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Soba-Bukkake-with-Chashu-Pork-and-Sesame-Vinaigrette-FT-recipe0719_0-27ac8796fcbc4438913dd1ee6609f534.jpg",
+        "description": "A slow-simmered, rich and savory tonkotsu broth is the base to this ramen, which is rich from the meltingly tender chashu pork and soft-boiled egg and brightened by the pickled mushrooms."
+      },
+      {
+        "name": "Tonkotsu Ramen",
+        "url": "https://www.foodandwine.com/thmb/KMjGvI2fQ_VBAGUn9IrRDYNSKCo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Tonkotsu-Ramen-FT-BLOG1122-8fe6c12d609a4fd4ab246bea3aae140e.jpg",
+        "description": "A slow-simmered, rich and savory tonkotsu broth is the base to this ramen, which is rich from the meltingly tender chashu pork and soft-boiled egg and brightened by the pickled mushrooms."
+      }
+    ],
+    "ice_creams": {
+      "url": "https://www.foodandwine.com/thmb/Yt46CaGExGFVjruxJsNSFjNVMo0=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Super-Scoops-FT-2-MAG0622-00568f6534a44e0c8a422b66b25d6cf6.jpg",
+      "types": [
+        {
+          "name": "Vegan Chocolate-Chipotle Ice Cream",
+          "url": "https://www.foodandwine.com/thmb/mUjygUNZEaFHBJdIMbgA4vex3gs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Vegan-Chocolate-Chipotle-Ice-Cream-FT-RECIPE0622-bdf71de557f44add9286068068bae05a.jpg",
+          "description": "Nondairy ice cream is typically made with alternative milks or non- dairy yogurt to achieve the creaminess of regular ice cream. Gerson opts for a combination of both, calling for unsweetened oat milk or rice milk as well as coconut yogurt. "
+        },
+        {
+          "name": "Pistachio Stracciatella Gelato",
+          "url": "https://www.foodandwine.com/thmb/o6fhycs2MIO2A1oI_uLI3YT8Wcg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Pistachio-Straciatella-Gelato-FT-RECIPE0622-5204ea78cab749b1a7e81eb8216d661d.jpg",
+
+          "description": "Gelato is denser than ice cream, thanks in part to the larger amount of milk versus cream and the slower rate at which it's typically churned. The slower churning pace incorporates less air, yielding a texture that's less fluffy, and the lower percentage of fat makes the flavors taste more intense. Gerson has long been a gelato lover."
+        },
+        {
+          "name": "Raspberry-Hibiscus Sorbe",
+          "url": "https://www.foodandwine.com/thmb/A7u_upx0eOiKdRrx3YIAKSLHD2I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Raspberry-Hisbiscus-Sorbet-FT-RECIPE0622-8432b49d3cbb4406850ea92fb8e1ba0b.jpg",
+          "description": "This sorbet has a creamy texture even with- out the dairy, thanks to the addition of corn syrup or honey, which increases the sugar content and helps make the final product richer, less icy, and more scoopable. The flavor combination stems from a recipe in one of Gerson's cookbooks, Paletas: Authentic Recipes for Mexican Ice Pops, Shaved Ice & Aguas Frescas."
+        },
+        {
+          "name": "Peach Ice Cream with Caramel-Bourbon Swirl",
+          "url": "https://www.foodandwine.com/thmb/esfjeFnaHCceGGGWEEq-rd6yD-o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Peach-Ice-Cream-with-Caramel-Bourbon-Swirl-FT-RECIPE0622-0445431dbd384827994ce0c23e6a3d62.jpg",
+          "description": " American-style ice creams are eggless and are usually made with a combination of milk and cream, sometimes containing cornstarch as a thickener. Gerson's version uses cream (no milk) and crème fraîche or sour cream to balance out the flavors and add creaminess to the fluffy texture."
+        },
+        {
+          "name": "Roasted Strawberry-Vanilla Ice Cream",
+          "url": "https://www.foodandwine.com/thmb/OrNGmMlTkp07h2CEqTazQR-6-6o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Roasted-Strawberry-Vanilla-Ice-Cream-FT-RECIPE0622-7f6da8d30ee54b629421e5767e4b8fe0.jpg",
+          "description": "The foundation of French-style ice cream is egg yolks. Egg yolks are added to cream and milk to form a custard base, giving rise to a thick, silky ice cream. According to Gerson, the key to French-style ice cream is making a base so good you could eat it without freezing it. In this recipe, Gerson wanted to celebrate the flavors she grew up eating."
+        }
+      ]
+    },
+    "specials": [
+      {
+        "name": "Beef Stew with Mustard Greens",
+        "url": "https://www.foodandwine.com/thmb/03ceaioJ_YEfyERT5bfdvhUKRgk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Braised-Beef-Stew-with-Mustard-Greens-FT-RECIPE0224-ca4f10a8f6074a1386e6d6d99d45a15c.jpg",
+        "description": "Marinating the beef helps it take up intense, satisfying flavors that make all the difference in the final stew, where the beef turns beautifully tender after a long simmer in a cinnamon-infused broth with carrots and mustard greens. Toasted cinnamon sticks release their natural oils so the flavor of the sweet and woody spice spread throughout the dish in the warming, aromatic broth."
+      },
+      {
+        "name": "BBQ Baked Chicken Thighs",
+        "url": "https://www.foodandwine.com/thmb/NQuBs45G1TyF4OA7opEFDvRfYIU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/201404-xl-bbq-baked-chicken-thighs-7ffc6e8a5d96400c8a37be620ab90cab.jpg",
+        "description": "Always juicy and delicious, these baked chicken thighs with BBQ sauce will make you forget about your grill."
+      },
+      {
+        "name": "Salmon Crudo",
+        "url": "https://www.foodandwine.com/thmb/EK769cGeUgBqg9eJ9Pvie71Qq0w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Salmon-Coconut-Crudo-Is-the-Perfect-Winter-Appetizer-FT-RECIPE0224-cea571e0a10f4ce9ae498e4ac6bd9a97.jpg",
+        "description": "This stunning appetizer showcases juicy grapefruit with thinly sliced raw salmon, herbs, yuzu kosho, and a coconut milk–based sauce."
+      },
+      {
+        "name": "Coconut Chicken Curry",
+        "url": "https://www.foodandwine.com/thmb/OpqOUrOykpDhDFCIAJMe8LJBWwI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chicken-And-Mushroom-Coconut-Curry-BLOG-MAG-RECIPE-0131-55b0b38ba10c4496ae16c577fb5fd834.jpg",
+        "description": "This creamy, velvety, turmeric-stained coconut curry features juicy chicken thighs with spices, shallots, and cremini mushrooms. Evaporated coconut milk, stirred in at the end, heightens the coconut flavors for a more fragrant sauce. Serve the curry over a bed of rice for a satisfying and deeply cozy meal."
+      },
+      {
+        "name": "Lamb Korma",
+        "url": "https://www.foodandwine.com/thmb/I95ubWWzJ45RR-_JadGZycrEfbk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Lamb-Korma-FT-RECIPE0224-3a73d859494046a6bd933ddb62486cea.jpg",
+        "description": "This slow-braised lamb korma’s robust flavors come from warm spices mixed with tender, yogurt-marinated lamb and a creamy, earthy cashew sauce."
+      }
+    ],
+    "cocktails": [
+      {
+        "name": "Sour Cherry Negroni",
+        "url": "https://www.foodandwine.com/thmb/pbNubFjmIZEyg-TXZSSEu37jI2Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Sour-Cherry-Negroni-FT-RECIPE0323-61981a701e8644479f5c5e873e09ca8d.jpg",
+        "description": "This tart twist on a classic Negroni is true to the spirit of Hawksmoor's buzzy NYC outpost."
+      },
+      {
+        "name": "Sgroppino",
+        "url": "https://www.foodandwine.com/thmb/M4JBI95nds_8kRKrozx4VY2K78I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Sgroppino-FT-RECIPE0523-e455d0fd31f744eaa0818110a4b4116c.jpg",
+        "description": "This boozy afternoon treat is the easiest frozen drink you can make."
+      },
+
+      {
+        "name": "Espresso Martini",
+        "url": "https://www.foodandwine.com/thmb/z6kO8p6tfGNT8nI2bwu-ZaHViUM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Espresso-Martini-FT-BLOG1122-db7c33cb78534f97bf638ad25d11971c.jpg",
+        "description": "This classic combination of coffee liqueur, espresso, and vodka is ideal to enjoy at the beginning or end of a big night out."
+      },
+      {
+        "name": "Affogato Martini",
+        "url": "https://www.foodandwine.com/thmb/PtsIV6dmuO57lpsLNLiohdYx08A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Affogato-Martini-2-FT-RECIPE0123-c444defacc4e409db080dcad2185de0c.jpg",
+        "description": "For this glitzed-up version of an Espresso Martini, vodka haters will be delighted and surprised to know that rum is the spirit in the spotlight. Vodka brings alcohol to this boozy beverage but not much else; it’s basically a whiteboard to reflect the dominant coffee flavor."
+      },
+
+      {
+        "name": "Carajilo",
+        "url": "https://www.foodandwine.com/thmb/I0y1OaHHEo9ls3kA0z8XF1J5RE4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Decaf-Carajillo-XL-RECIPE1023-48dc5a8c35224716a97d200e93c7478c.jpg",
+        "description": "This classic Mexican coffee cocktail is the ultimate after-dinner drink — especially if you make it a decaf."
+      },
+      {
+        "name": "Maple Bourbon Smash",
+        "url": "https://www.foodandwine.com/thmb/B385fJhkuFBKvmkLqb7PfSkcISM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/maple-bourbon-smash-hero-01-FT-RECIPE1222-b505358fe4864fa083ae3ab27fc4b561.jpg",
+        "description": "Bourbon and maple syrup are a perfect pair in this flavor-packed variation of the Old Fashioned."
+      }
+    ],
+    "indian": [
+      {
+        "name": "Aloo Matar",
+        "url": "https://www.foodandwine.com/thmb/JDUQOd-Gn4mKFFyeaOyA_CdB-6U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Aloo-Matar-Potato-and-Green-Pea-Curry-FT-RECIPE0922-2000-7f1c153303bc4d96a93f1d49f9c7e5a4.jpg",
+        "description": "A blend of fresh ginger, garlic, and jalapeño chile forms the aromatic base for this vegetarian curry from chef Chintan Pandya of New York's Dhamaka"
+      },
+      {
+        "name": "Spicy Chicken Curry",
+        "url": "https://www.foodandwine.com/thmb/f4uf4WXHz-waXLB_oqG-U1p4Y7A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spicy-chicken-curry-FT-RECIPE0321-58f84fdf7b484e7f86894203eb7834e7.jpg",
+        "description": "For this spicy curry, chicken thighs and drumsticks simmer in a rich sauce seasoned with chiles, garlic, ginger, and an array of spices."
+      }
+    ]
+  }
+}
