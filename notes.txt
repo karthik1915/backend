@@ -1,0 +1,40 @@
+food image 
+
+    pizza : "https://www.foodandwine.com/thmb/4qg95tjf0mgdHqez5OLLYc0PNT4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg"
+    burger: "https://www.foodandwine.com/thmb/jldKZBYIoXJWXodRE9ut87K8Mag=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg"
+    frenchfries:
+    coffee:
+    popcorn:
+    icecream: "https://www.foodandwine.com/thmb/Yt46CaGExGFVjruxJsNSFjNVMo0=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Super-Scoops-FT-2-MAG0622-00568f6534a44e0c8a422b66b25d6cf6.jpg"
+        Vegan Chocolate-Chipotle Ice Cream : "https://www.foodandwine.com/thmb/mUjygUNZEaFHBJdIMbgA4vex3gs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Vegan-Chocolate-Chipotle-Ice-Cream-FT-RECIPE0622-bdf71de557f44add9286068068bae05a.jpg"
+        Pistachio Stracciatella Gelato : "https://www.foodandwine.com/thmb/o6fhycs2MIO2A1oI_uLI3YT8Wcg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Pistachio-Straciatella-Gelato-FT-RECIPE0622-5204ea78cab749b1a7e81eb8216d661d.jpg"
+        Raspberry-Hibiscus Sorbet : "https://www.foodandwine.com/thmb/A7u_upx0eOiKdRrx3YIAKSLHD2I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Raspberry-Hisbiscus-Sorbet-FT-RECIPE0622-8432b49d3cbb4406850ea92fb8e1ba0b.jpg"
+        Peach Ice Cream with Caramel-Bourbon Swirl : "https://www.foodandwine.com/thmb/esfjeFnaHCceGGGWEEq-rd6yD-o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Peach-Ice-Cream-with-Caramel-Bourbon-Swirl-FT-RECIPE0622-0445431dbd384827994ce0c23e6a3d62.jpg"
+        Roasted Strawberry-Vanilla Ice Cream : "https://www.foodandwine.com/thmb/OrNGmMlTkp07h2CEqTazQR-6-6o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Roasted-Strawberry-Vanilla-Ice-Cream-FT-RECIPE0622-7f6da8d30ee54b629421e5767e4b8fe0.jpg"
+
+    cola: "https://www.foodandwine.com/thmb/jldKZBYIoXJWXodRE9ut87K8Mag=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg"
+    waterbottle:
+    
+    Beef Stew with Mustard Greens : "https://www.foodandwine.com/thmb/03ceaioJ_YEfyERT5bfdvhUKRgk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Braised-Beef-Stew-with-Mustard-Greens-FT-RECIPE0224-ca4f10a8f6074a1386e6d6d99d45a15c.jpg"
+    description: "Marinating the beef helps it take up intense, satisfying flavors that make all the difference in the final stew, where the beef turns beautifully tender after a long simmer in a cinnamon-infused broth with carrots and mustard greens. Toasted cinnamon sticks release their natural oils so the flavor of the sweet and woody spice spread throughout the dish in the warming, aromatic broth."
+
+    BBQ Baked Chicken Thighs: "https://www.foodandwine.com/thmb/NQuBs45G1TyF4OA7opEFDvRfYIU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/201404-xl-bbq-baked-chicken-thighs-7ffc6e8a5d96400c8a37be620ab90cab.jpg"
+
+    Salmon Crudo: "https://www.foodandwine.com/thmb/EK769cGeUgBqg9eJ9Pvie71Qq0w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Salmon-Coconut-Crudo-Is-the-Perfect-Winter-Appetizer-FT-RECIPE0224-cea571e0a10f4ce9ae498e4ac6bd9a97.jpg"
+    description: "This stunning appetizer showcases juicy grapefruit with thinly sliced raw salmon, herbs, yuzu kosho, and a coconut milk–based sauce."
+
+    Coconut Chicken Curry : "https://www.foodandwine.com/thmb/OpqOUrOykpDhDFCIAJMe8LJBWwI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chicken-And-Mushroom-Coconut-Curry-BLOG-MAG-RECIPE-0131-55b0b38ba10c4496ae16c577fb5fd834.jpg"
+    description: "This creamy, velvety, turmeric-stained coconut curry features juicy chicken thighs with spices, shallots, and cremini mushrooms. Evaporated coconut milk, stirred in at the end, heightens the coconut flavors for a more fragrant sauce. Serve the curry over a bed of rice for a satisfying and deeply cozy meal."
+
+
+    
+japanese foods:
+    Yaki Onigiri : "https://www.foodandwine.com/thmb/ubTTCygEx-yixPnM3Ho1xa3Hh_M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Yaki-Onigiri-FT-RECIPE0124-d61b1bff2bb543be83035bc9d647a67e.jpg"
+    description: "This popular Japanese snack of grilled, soy sauce–basted rice balls requires just a few ingredients. All you need is short-grain white rice, water, furikake, soy sauce, and cooking spray, then you are ready to shape the onigiri. Our version uses the broiler to create a deliciously crunchy, toasted crust that makes these rice balls easy to enjoy."
+
+
+    Tonkotsu Ramen : "https://www.foodandwine.com/thmb/KMjGvI2fQ_VBAGUn9IrRDYNSKCo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Tonkotsu-Ramen-FT-BLOG1122-8fe6c12d609a4fd4ab246bea3aae140e.jpg"
+    description: "A slow-simmered, rich and savory tonkotsu broth is the base to this ramen, which is rich from the meltingly tender chashu pork and soft-boiled egg and brightened by the pickled mushrooms."
+
+    Soba Bukkake with Chashu Pork and Sesame Vinaigrette : "https://www.foodandwine.com/thmb/4G3OIDxKLcmEgYVezGA76MNurew=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Soba-Bukkake-with-Chashu-Pork-and-Sesame-Vinaigrette-FT-recipe0719_0-27ac8796fcbc4438913dd1ee6609f534.jpg"
+    description : The dish comes together quickly using dried soba (with Soma's blessing; look for Shirakiku Hana Tororo Soba), and easily scales up for a crowd. The soba noodles can be made ahead of time and held in cold water. The mentsuyu, simply a fortified dashi, is super-quick to make and intensely flavorful. Any leftover mentsuyu can be used to marinate tofu, poach chicken, and steam or marinate sea bass, or can be served as a dumpling dipping sauce.
