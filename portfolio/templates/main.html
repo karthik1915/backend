@@ -1,0 +1,40 @@
+{% extends 'index.html' %} {% block navlinks %}
+<div>
+  <a href="{% url 'about' %}"> About </a>
+  <a id="projects"> Projects </a>
+  <a href="{% url 'services' %}"> Services </a>
+  <a href="{% url 'contact' %}"> Contact </a>
+</div>
+
+{% endblock %} {% block popuplinks %}
+<a href="{% url 'about' %}"> About </a>
+<a href="{% url 'services' %}"> Services </a>
+<a href="{% url 'contact' %}"> Contact </a>{% endblock %} {% block content %}
+
+<div class="main panel">
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>HELLO , I'm</h2>
+      <h5>KARTHIKEYAN J</h5>
+      <h4>DEVELOPER</h4>
+      <p>
+        I Develop Robust and Reliable code with Commitment and Purpose of
+        Learning New Topics. Available for Work.
+      </p>
+    </div>
+    <div class="grid-item">
+      <h2 id="projects-title" class="pointer">PROJECTS</h2>
+
+      <a>React Web App</a>
+      <a>Django Server</a>
+      <a>Flutter Mobile App</a>
+      <a>ML with Prediction Analysis</a>
+    </div>
+  </div>
+</div>
+
+<div class="projects panel" id="projects">
+  <h1>PROJECTS</h1>
+</div>
+
+{% endblock %}

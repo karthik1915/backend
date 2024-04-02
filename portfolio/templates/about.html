@@ -1,0 +1,18 @@
+{% extends 'index.html' %} {% block navlinks %}
+<div>
+  <a href="{% url 'index' %}"> Home </a>
+  <a href="{% url 'index' %}"> Projects </a>
+  <a href="{% url 'services' %}"> Services </a>
+  <a href="{% url 'contact' %}"> Contact </a>
+</div>
+
+{% endblock %} {% block popuplinks %}
+<a href="{% url 'index' %}"> Home </a>
+<a href="{% url 'services' %}"> Services </a>
+<a href="{% url 'contact' %}"> Contact </a>{% endblock %} {% block content %}
+
+<div class="main">
+  <h1>About Me</h1>
+</div>
+
+{% endblock %}
