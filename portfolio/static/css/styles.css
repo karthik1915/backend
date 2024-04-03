@@ -294,7 +294,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50vw;
-  background-color: #ffffff88; /* Semi-transparent white background */
+  background-color: #ffffff88;
   backdrop-filter: blur(5px);
   height: 30vh;
   padding: 20px;
