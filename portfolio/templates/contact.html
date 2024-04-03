@@ -1,20 +1,166 @@
-{% extends 'index.html' %}
-{% block title %}Contact{% endblock %}
-{% block navlinks %}
-    <div>
-        <a href="{% url 'index' %}">Home</a>
-        <a href="{% url 'about' %}">About</a>
-        <a href="{% url 'index' %}">Projects</a>
-        <a href="{% url 'services' %}">Services</a>
+{% extends "index.html" %} {% block title %}Contact{% endblock %} {%block css%}
+{%load static%}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}" />
+{%endblock%} {% block navlinks %}
+<div>
+  <a href="{% url 'index' %}">Home</a>
+  <a href="{% url 'about' %}">About</a>
+  <a href="{% url 'index' %}">Projects</a>
+  <a href="{% url 'services' %}">Services</a>
+</div>
+{% endblock %} {% block popuplinks %}
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+{% endblock %} {% block content %}
+<div class="main-contact">
+  <h1>Contact Me</h1>
+  <div class="container">
+    <div class="media-links">
+      <div class="linkcontainer" id="discord">
+        <div class="discord">
+          <img class="link-img" src="{% static 'images/discord.png' %}" />
+        </div>
+
+        <section class="link-texts">
+          <h3>@butcher4114</h3>
+          <p>discord username</p>
+        </section>
+      </div>
+
+      <div class="linkcontainer" id="instagram">
+        <div class="instagram">
+          <img class="link-img" src="{% static 'images/instagram.png' %}" />
+        </div>
+
+        <section class="link-texts">
+          <h3>@kar_thik_op</h3>
+          <p>Instagram username</p>
+        </section>
+      </div>
+
+      <div class="linkcontainer" id="linkedin">
+        <div class="linked-in">
+          <img class="link-img" src="{% static 'images/linkedin.png' %}" />
+        </div>
+
+        <section class="link-texts">
+          <h3>Karthikeyan J</h3>
+          <p>Linked-In Account</p>
+        </section>
+      </div>
+
+      <div class="linkcontainer" id="github">
+        <div class="github">
+          <img class="link-img" src="{% static 'images/github.png' %}" />
+        </div>
+        <section class="link-texts">
+          <h3>@karthik1915</h3>
+          <p>github username</p>
+        </section>
+      </div>
+
+      <div class="linkcontainer" id="telegram">
+        <div class="telegram">
+          <img class="link-img" src="{% static 'images/telegram.png' %}" />
+        </div>
+        <section class="link-texts">
+          <h3>@karthik1915</h3>
+          <p>telegram username</p>
+        </section>
+      </div>
+
     </div>
+  </div>
+
+  <h1> Direct Message </h1>
+  <form method="post"id="contactform">
+    <label for="id_name">Name:</label>
+    <input type="text" id="id_name" name="name" required /><br />
+
+    <label for="id_email">Email:</label>
+    <input type="email" id="id_email" name="email" required /><br />
+
+    <label for="id_subject">Subject:</label>
+    <textarea id="id_subject" name="subject" rows="3" required></textarea><br />
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+{% endblock content %} 
+
+
+{%block js%}
+
+<script>
+  gsap.set(".nav-container", { position: "absolute" });
+  document.getElementById("discord").addEventListener("click", function() {
+    window.open("https://discordapp.com/users/butcher4114/", "_blank");
+  });
+  document.getElementById("instagram").addEventListener("click", function() {
+    window.open("https://www.instagram.com/kar_thik_op/", "_blank");
+  });
+  document.getElementById("github").addEventListener("click", function() {
+    window.open("https://github.com/karthik1915", "_blank");
+  });
+  document.getElementById("linkedin").addEventListener("click", function() {
+    window.open("https://www.linkedin.com/in/karthikeyan-j-33151b206/", "_blank");
+  });
+  document.getElementById("telegram").addEventListener("click", function() {
+    window.open("https://t.me/karthik1915", "_blank");
+  });
+
+  let linkContainer=gsap.utils.toArray(".linkcontainer");
+  gsap.fromTo(
+    linkContainer,
+    {
+      y:100,
+      opacity:0,
+    },
+    {
+      y:0,
+      opacity:1,
+      ease:"bounce.power",
+      duration:0.7,
+      stagger:0.2
+    }
+  );
+
+  document.getElementById("contactform").addEventListener("submit", function(event) {
+    event.preventDefault();
+  
+    let formData = {
+      name: document.getElementById("id_name").value,
+      email: document.getElementById("id_email").value,
+      subject: document.getElementById("id_subject").value
+    };
+
+    let jsonData = JSON.stringify(formData);
+  
+    fetch("/contact/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    })
+    .then(response => {
+      if (response.ok) {
+        document.getElementById("id_name").value = "";
+        document.getElementById("id_email").value = "";
+        document.getElementById("id_subject").value = "";
+        alert("Successfully posted message!");
+      } else {
+        alert("Failed to submit form. Please try again later.");
+      }
+    })
+    .catch(error => {
+      console.error("Error:", error);
+      alert("An unexpected error occurred. Please try again later.");
+    });
+  });
+</script>
+
 {% endblock %}
-{% block popuplinks %}
-    <a href="{% url 'index' %}">Home</a>
-    <a href="{% url 'about' %}">About</a>
-    <a href="{% url 'services' %}">Services</a>
-{% endblock %}
-{% block content %}
-    <div class="main">
-        <h1>Contact Me</h1>
-    </div>
-{% endblock %}
+
+

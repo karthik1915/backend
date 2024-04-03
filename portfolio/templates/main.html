@@ -1,39 +1,140 @@
-{% extends 'index.html' %}
-{% block navlinks %}
-    <div>
-        <a href="{% url 'about' %}">About</a>
-        <a id="projects">Projects</a>
-        <a href="{% url 'services' %}">Services</a>
-        <a href="{% url 'contact' %}">Contact</a>
+{% extends 'index.html' %} {% block navlinks %}
+<div>
+  <a href="{% url 'about' %}">About</a>
+  <a id="projects">Projects</a>
+  <a href="{% url 'services' %}">Services</a>
+  <a href="{% url 'contact' %}">Contact</a>
+</div>
+{% endblock %} {% block popuplinks %}
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'contact' %}">Contact</a>
+{% endblock %} {% block content %}
+<div class="main panel">
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>HELLO , I'm</h2>
+      <h5>KARTHIKEYAN J</h5>
+      <h4>DEVELOPER</h4>
+      <p>
+        I Develop Robust and Reliable code with Commitment and Purpose of
+        Learning New Topics. Available for Work.
+      </p>
     </div>
-{% endblock %}
-{% block popuplinks %}
-    <a href="{% url 'about' %}">About</a>
-    <a href="{% url 'services' %}">Services</a>
-    <a href="{% url 'contact' %}">Contact</a>
-{% endblock %}
-{% block content %}
-    <div class="main panel">
-        <div class="grid-container">
-            <div class="grid-item">
-                <h2>HELLO , I'm</h2>
-                <h5>KARTHIKEYAN J</h5>
-                <h4>DEVELOPER</h4>
-                <p>
-                    I Develop Robust and Reliable code with Commitment and Purpose of
-                    Learning New Topics. Available for Work.
-                </p>
-            </div>
-            <div class="grid-item">
-                <h2 id="projects-title" class="pointer">PROJECTS</h2>
-                <a>React Web App</a>
-                <a>Django Server</a>
-                <a>Flutter Mobile App</a>
-                <a>ML with Prediction Analysis</a>
-            </div>
-        </div>
+    <div class="grid-item">
+      <h2 id="projects-title" class="pointer">PROJECTS</h2>
+      <a>React Web App</a>
+      <a>Django Server</a>
+      <a>Flutter Mobile App</a>
+      <a>ML with Prediction Analysis</a>
     </div>
-    <div class="projects panel" id="projects">
-        <h1>PROJECTS</h1>
-    </div>
+  </div>
+</div>
+<div class="projects panel" id="projects">
+  <h1>PROJECTS</h1>
+</div>
 {% endblock %}
+
+
+{%block js%}
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  document.getElementById("home").addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+  
+  document.getElementById("projects").addEventListener("click", function () {
+    const targetPosition = window.scrollY + window.innerHeight;
+  
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth",
+    });
+  });
+  
+  document
+    .getElementById("projects-title")
+    .addEventListener("click", function () {
+      const targetPosition = window.scrollY + window.innerHeight;
+  
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth",
+      });
+    });
+  
+  let panels = gsap.utils.toArray(".panel");
+  // we'll create a ScrollTrigger for each panel just to track when each panel's top hits the top of the viewport (we only need this for snapping)
+  let tops = panels.map((panel) =>
+    ScrollTrigger.create({ trigger: panel, start: "top top" })
+  );
+  
+  panels.forEach((panel, i) => {
+    ScrollTrigger.create({
+      trigger: panel,
+      start: () =>
+        panel.offsetHeight < window.innerHeight ? "top top" : "bottom bottom", // if it's shorter than the viewport, we prefer to pin it at the top
+      pin: true,
+      pinSpacing: false,
+    });
+  });
+  
+  let navContainer = document.getElementById("navContainer");
+  
+  ScrollTrigger.create({
+    trigger: ".projects",
+    start: "top-=25 top",
+    end: "bottom top",
+    onEnter: () => {
+      navContainer.classList.remove("nav-container");
+      navContainer.classList.add("nav-container-dark");
+    },
+    onLeaveBack: () => {
+      navContainer.classList.remove("nav-container-dark");
+      navContainer.classList.add("nav-container");
+    },
+  });
+  function toggleMenu() {
+    var menu = document.getElementById("popup-menu");
+    let popupAnimation = gsap.fromTo(
+      menu,
+      {
+        scale: 0,
+      },
+      {
+        scale: 1,
+        ease: "bounce.out",
+        duration: 0.3,
+        display: "block",
+      }
+    );
+    popupAnimation.play();
+  }
+  
+  document.addEventListener("click", function (event) {
+    var menu = document.getElementById("popup-menu");
+    var target = event.target;
+    var menuBtn = document.querySelector(".menu");
+  
+    if (!menu.contains(target) && target !== menuBtn) {
+      let popupAnimation = gsap.fromTo(
+        menu,
+        {
+          scale: 1,
+        },
+        {
+          scale: 0,
+          duration: 0.3,
+          display: "none",
+        }
+      );
+      popupAnimation.play();
+    }
+  });
+  
+</script>
+{%endblock js%}

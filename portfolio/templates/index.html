@@ -1,44 +1,53 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Karthikeyan -
-            {% block title %}Portfolio{% endblock %}
-        </title>
-        <link rel="icon" type="image/x-icon" href="{% static 'images/logo.ico' %}" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-              rel="stylesheet" />
-        <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
-    </head>
-    <body>
-        <div class="nav-container" id="navContainer">
-            <div id="home" class="borderblack">
-                <img src="{% static 'images/image.png' %}" />
-                <p>KARTHIKEYAN</p>
-            </div>
-            {% block navlinks %}{% endblock %}
-            <button onclick="toggleMenu()">
-                <span class="menu"></span>
-            </button>
-        </div>
-        <div class="popup-menu" id="popup-menu">
-            <div class="menu-items">
-                {% block popuplinks %}{% endblock %}
-            </div>
-        </div>
-        {% block content %}{% endblock %}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-                integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-                crossorigin="anonymous"
-                referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-                integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-                crossorigin="anonymous"
-                referrerpolicy="no-referrer"></script>
-        <script src="{% static 'js/script.js'%}"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karthikeyan - {% block title %}Portfolio{% endblock %}</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{% static 'images/logo.ico' %}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    {%block css%}{%endblock%}
+  </head>
+  <body>
+    <div class="nav-container" id="navContainer">
+      <div id="home" class="borderblack">
+        <img src="{% static 'images/image.png' %}" />
+        <p>KARTHIKEYAN</p>
+      </div>
+      {% block navlinks %}{% endblock %}
+      <button onclick="toggleMenu()">
+        <span class="menu"></span>
+      </button>
+    </div>
+    <div class="popup-menu" id="popup-menu">
+      <div class="menu-items">{% block popuplinks %}{% endblock %}</div>
+    </div>
+    {% block content %}{% endblock %}
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="{%static 'js/script.js'%}"></script>
+    {%block js%}{%endblock%}
+  </body>
 </html>
